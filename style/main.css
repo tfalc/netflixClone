@@ -1,0 +1,86 @@
+:root {
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    color: var(--vermelho);
+    font-family: 'Arial Black';
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #aaaaaa;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #ffffff;
+}
+
+/*[INICIO]Estilos do div de filme principal*/
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../img/capa-house.jpg');
+    height: 80%;
+    width: 90%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 2%;
+}
+
+.filme-principal button{
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 30px;
+    background-color: rgba(43, 41, 41, 0.5);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-right: 15px;
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.filme-principal button:hover{
+    transition-duration: 0.3s;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+.titulo{
+    margin-top: 20%;
+    font-size: 45px;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 20px;
+}
+/*[FIM]Estilos do div de filme principal*/
