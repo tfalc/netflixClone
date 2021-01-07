@@ -11,7 +11,7 @@
 
 body {
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
 }
 
@@ -79,10 +79,12 @@ header nav a:hover {
 .titulo{
     margin-top: 20%;
     font-size: 45px;
+    padding-left: 10px;
 }
 
 .filme-principal .descricao{
     margin-bottom: 20px;
+    padding-left: 10px;
 }
 
 .filme-principal .container{
@@ -102,5 +104,5 @@ header nav a:hover {
 }
 
 .carrosel-filmes{
-    margin-top:5px;
+    margin-top:15px;
 }
